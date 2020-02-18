@@ -55,4 +55,4 @@ class BotHandler:
                     if(data.text == '/stats'):
                         self._sendMsg(data.user["id"], self._toString())
                     elif(data.text == "/помощь") or (data.text == "/help"):
-                        self._sendMsg(data.user["id"], "Бот для получения информации о заболевших COVID-19\nЧтобы получить статиску о заболевших введите /stats\n\nИсходники в общем доступе:")
+                        self._sendMsg(data.user["id"], "Бот для получения информации о заболевших COVID-19\nЧтобы получить статистику о заболевших введите /stats\n\nИсходники в общем доступе:\nhttps://github.com/kensshii/py-tgbot_covid19")
