@@ -25,6 +25,7 @@ Coronavirus (COVID 19) Бот для Телеграмма, написанный 
 
 ## Обработка request
 На данный момент есть два MessageType, их можете посмотреть и изменить в messagetypes.py:
+
         MessageType.Message
         MessageType.Command
         
